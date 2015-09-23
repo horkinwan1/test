@@ -87,6 +87,7 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
+    <Content Include="WebForm12.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.vb">
@@ -110,6 +111,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="WebForm12.aspx.designer.vb">
+      <DependentUpon>WebForm12.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm12.aspx.vb">
+      <DependentUpon>WebForm12.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
